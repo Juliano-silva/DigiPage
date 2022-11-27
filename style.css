@@ -17,6 +17,9 @@ body{
   user-select: none;
   overflow-x: hidden;
 }
+body::-webkit-scrollbar{
+    width: 0px;
+}
 #Mask{
     top: 0;
     position: absolute;
